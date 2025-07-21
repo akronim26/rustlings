@@ -13,7 +13,7 @@ mod tests {
         let my_fav_fruits = ["banana", "custard apple", "avocado", "peach", "raspberry"];
 
         // TODO: Create an iterator over the array.
-        let mut fav_fruits_iterator = todo!();
+        let mut fav_fruits_iterator: Vec<str> = my_fav_fruits.iter().collect();
 
         assert_eq!(fav_fruits_iterator.next(), Some(&"banana"));
         assert_eq!(fav_fruits_iterator.next(), todo!()); // TODO: Replace `todo!()`
